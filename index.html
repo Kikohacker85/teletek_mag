@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual Interativo - Teletek MAG 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+    <img src="assets/mafep_logo.png" alt="MAFEP Logo" style="height: 50px; vertical-align: middle;">
+    🔥 Manual Interativo - Teletek MAG 4
+</h1>
+        <p class="selecao-opcao">Selecione uma opção:</p>
+
+        <div class="menu">
+            <button onclick="mostrarSecao('alarme')">🚨 Alarme Ativado</button>
+            <button onclick="mostrarSecao('avaria')">⚙️ Avarias e Manutenção</button>
+            <button onclick="mostrarSecao('contato')">📞 Contato e Assistência</button>
+        </div>
+
+        <div id="conteudo">
+            <!-- Conteúdo dinâmico será carregado aqui -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
